@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color:  #ffa500;
+
+
+}
+.card {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+   justify-content: space-around;
+   background-image: url("business card.jpg");
+   
+   /* border-bottom: 6px solid #283618; */
+   border-radius: 6px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.card img{
+    width: 150px;
+    object-fit: cover;
+}
+
+a{
+    color: rgb(6, 29, 97);
+}
